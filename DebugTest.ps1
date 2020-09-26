@@ -4,7 +4,7 @@ function Write-Item($itemCount) {
     $i = 1
 
     while ($i -le $itemCount) {
-        $str = "Output $i"
+        $str = "number is $i"
         Write-Output $str
 
         # In the gutter on the left, right click and select "Add Conditional Breakpoint"
